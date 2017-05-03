@@ -193,7 +193,7 @@ public class Calculation {
         Double x = a / b;
 
         Function fx = new Function();
-        Double P = fx.calculateP(x, (this.N * 1.0 - 2));
+        Double P = fx.calculateP(x, (this.N - 2.0));
 
         return 1 - (2 * P);
     }
@@ -205,7 +205,7 @@ public class Calculation {
      */
     private Double calculateRange() {
         Function fx = new Function();
-        Double X = fx.calculateX(0.35, (this.N * 0.1 - 2));
+        Double X = fx.calculateX(0.35, (this.N - 2.0));
         Double stdDeviation = this.calculateStdDeviation();
 
         Double a = X * stdDeviation;

@@ -73,7 +73,7 @@ public class App {
             System.out.println("Range " + caseFour.getRange());
             System.out.println("UPI " + caseFour.getUPI());
             System.out.println("LPI " + caseFour.getLPI());
-/*
+
             port(Integer.valueOf(System.getenv("PORT")));
             get("/", (req, res) -> {
                 String response = "";
@@ -122,7 +122,7 @@ public class App {
                 response += "<br>LPI: " + caseFour.getLPI();
 
                 return response;
-            });*/
+            });
 
         } catch (IOException ex) {
             Logger.getLogger(App.class.getName()).log(Level.SEVERE, null, ex);

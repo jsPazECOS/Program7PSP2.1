@@ -58,7 +58,7 @@ public class AppTest
         assertEquals("Rxy debe ser 0.933306898", 0.933306898, caseTwo.getRxy(), 0.01);
         assertEquals("R2 debe ser 0.871061766", 0.871061766, caseTwo.getR2(), 0.01);
         assertEquals("Significance debe ser 7.98203E-05", 7.98203E-05, caseTwo.getSignificance(), 0.01);
-        assertEquals("B0 debe ser 4.038881575", 4.038881575, caseTwo.getB0(), 0.01);
+        assertEquals("B0 debe ser -4.038881575", -4.038881575, caseTwo.getB0(), 0.01);
         assertEquals("B1 debe ser 0.16812665", 0.16812665, caseTwo.getB1(), 0.01);
         assertEquals("Yk debe ser 60.85800528", 60.85800528, caseTwo.getYk(), 0.01);
         assertEquals("Range debe ser 27.55764748", 27.55764748, caseTwo.getRange(), 0.01);
